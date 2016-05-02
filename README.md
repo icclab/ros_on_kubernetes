@@ -9,6 +9,8 @@ Both talker and listener have to register to the master in order to communicate 
 
 We're using the excellent "official" ROS containers from Docker Hub: https://hub.docker.com/_/ros/
 
+A blog article about this implementation is available here: https://blog.zhaw.ch/icclab/challenges-with-running-ros-on-kubernetes/
+
 ## TL;DR: What worked for us
 
 - We use one pod per ROS node and we wanted the nodes to be able to talk to each other seamlessly
